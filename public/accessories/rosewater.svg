@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="240" viewBox="0 0 640 240" role="img" aria-label="rosewater">
+<defs>
+<linearGradient id="lens" x1="0" y1="0" x2=".65" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#684a32" stop-opacity=".16"/><stop offset="1" stop-color="#f6ead6" stop-opacity=".04"/></linearGradient>
+<linearGradient id="shine" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff" stop-opacity=".5"/><stop offset=".7" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<filter id="shadow" x="-20%" y="-40%" width="140%" height="180%"><feDropShadow dx="0" dy="3" stdDeviation="2" flood-color="#241910" flood-opacity=".16"/></filter>
+<linearGradient id="rose" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#e4b9ae" stop-opacity=".87"/><stop offset=".45" stop-color="#c38d82" stop-opacity=".92"/><stop offset="1" stop-color="#e7c5b9" stop-opacity=".86"/></linearGradient><linearGradient id="roselens" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#c39588" stop-opacity=".23"/><stop offset="1" stop-color="#f8e9df" stop-opacity=".06"/></linearGradient>
+</defs>
+<g filter="url(#shadow)"><path d="M25 85L66 87L78 110L25 106Z M615 85L574 87L562 110L615 106Z" fill="url(#rose)"/>
+<path d="M62 111C62 69 100 50 165 52C237 53 276 75 274 114C271 160 237 185 174 185C106 186 64 163 62 111Z" fill="url(#roselens)" stroke="url(#rose)" stroke-width="18"/><path d="M578 111C578 69 540 50 475 52C403 53 364 75 366 114C369 160 403 185 466 185C534 186 576 163 578 111Z" fill="url(#roselens)" stroke="url(#rose)" stroke-width="18"/>
+<path d="M278 103Q320 77 362 103" fill="none" stroke="url(#rose)" stroke-width="16"/>
+<path d="M79 89Q117 60 181 65 M561 89Q523 60 459 65" fill="none" stroke="#fff2e7" stroke-opacity=".62" stroke-width="4" stroke-linecap="round"/>
+<path d="M31 92H50 M590 92H609" stroke="#b68969" stroke-width="3" stroke-linecap="round"/>
+<path d="M96 82L121 76L91 139L85 119Z M396 82L421 76L391 139L385 119Z" fill="white" opacity=".22"/></g>
+</svg>

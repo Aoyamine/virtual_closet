@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="240" viewBox="0 0 640 240" role="img" aria-label="aviator">
+<defs>
+<linearGradient id="lens" x1="0" y1="0" x2=".65" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#684a32" stop-opacity=".16"/><stop offset="1" stop-color="#f6ead6" stop-opacity=".04"/></linearGradient>
+<linearGradient id="shine" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff" stop-opacity=".5"/><stop offset=".7" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<filter id="shadow" x="-20%" y="-40%" width="140%" height="180%"><feDropShadow dx="0" dy="3" stdDeviation="2" flood-color="#241910" flood-opacity=".16"/></filter>
+<linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#efce85"/><stop offset=".3" stop-color="#af7e36"/><stop offset=".55" stop-color="#f3dc98"/><stop offset="1" stop-color="#b38643"/></linearGradient><linearGradient id="greenlens" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#3d473c" stop-opacity=".86"/><stop offset="1" stop-color="#899074" stop-opacity=".57"/></linearGradient>
+</defs>
+<g filter="url(#shadow)"><path d="M26 76L72 78 M614 76L568 78" stroke="url(#gold)" stroke-width="7" stroke-linecap="round"/>
+<path d="M70 93Q71 63 112 58L234 58Q269 62 272 94Q271 137 236 172Q213 195 180 188Q129 177 92 146Q70 126 70 93Z" fill="url(#greenlens)" stroke="url(#gold)" stroke-width="7"/><path d="M570 93Q569 63 528 58L406 58Q371 62 368 94Q369 137 404 172Q427 195 460 188Q511 177 548 146Q570 126 570 93Z" fill="url(#greenlens)" stroke="url(#gold)" stroke-width="7"/>
+<path d="M271 86Q320 66 369 86 M265 57Q320 43 375 57" fill="none" stroke="url(#gold)" stroke-width="7" stroke-linecap="round"/>
+<path d="M277 97L278 119 M363 97L362 119" stroke="#dec99e" stroke-width="6" stroke-linecap="round"/>
+<path d="M91 80L121 69L101 136L87 118Z M389 80L419 69L399 150L385 135Z" fill="white" opacity=".09"/>
+<path d="M32 75H62 M578 75H608" stroke="#fff1c6" stroke-width="2"/></g>
+</svg>

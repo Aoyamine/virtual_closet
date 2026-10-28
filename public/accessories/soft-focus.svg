@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="240" viewBox="0 0 640 240" role="img" aria-label="soft-focus">
+<defs>
+<linearGradient id="lens" x1="0" y1="0" x2=".65" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#684a32" stop-opacity=".16"/><stop offset="1" stop-color="#f6ead6" stop-opacity=".04"/></linearGradient>
+<linearGradient id="shine" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff" stop-opacity=".5"/><stop offset=".7" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<filter id="shadow" x="-20%" y="-40%" width="140%" height="180%"><feDropShadow dx="0" dy="3" stdDeviation="2" flood-color="#241910" flood-opacity=".16"/></filter>
+<linearGradient id="champagne" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f7e2bb"/><stop offset=".3" stop-color="#d8bc83"/><stop offset=".6" stop-color="#b59053"/><stop offset="1" stop-color="#e9d2a7"/></linearGradient>
+</defs>
+<g filter="url(#shadow)"><path d="M26 87L82 89 M614 87L558 89" stroke="url(#champagne)" stroke-width="9" stroke-linecap="round"/>
+<path d="M79 112C79 64 117 43 173 43C232 43 270 72 270 118C270 166 231 198 175 195C116 194 79 162 79 112Z" fill="url(#lens)" stroke="url(#champagne)" stroke-width="9"/><path d="M561 112C561 64 523 43 467 43C408 43 370 72 370 118C370 166 409 198 465 195C524 194 561 162 561 112Z" fill="url(#lens)" stroke="url(#champagne)" stroke-width="9"/>
+<path d="M272 103Q320 70 368 103" fill="none" stroke="url(#champagne)" stroke-width="8"/>
+<path d="M279 109L280 125 M361 109L360 125" stroke="#cfb681" stroke-width="5" stroke-linecap="round"/>
+<path d="M102 78Q117 59 143 55 M395 77Q413 56 437 55" stroke="#fff" stroke-opacity=".55" stroke-width="3" stroke-linecap="round" fill="none"/>
+<path d="M32 85H65 M575 85H608" stroke="#fff6dd" stroke-width="2"/>
+<path d="M112 79L130 68L95 139L91 117Z M405 79L423 68L388 139L384 117Z" fill="white" opacity=".22"/></g>
+</svg>

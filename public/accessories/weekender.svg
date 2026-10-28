@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="240" viewBox="0 0 640 240" role="img" aria-label="weekender">
+<defs>
+<linearGradient id="lens" x1="0" y1="0" x2=".65" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#684a32" stop-opacity=".16"/><stop offset="1" stop-color="#f6ead6" stop-opacity=".04"/></linearGradient>
+<linearGradient id="shine" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff" stop-opacity=".5"/><stop offset=".7" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<filter id="shadow" x="-20%" y="-40%" width="140%" height="180%"><feDropShadow dx="0" dy="3" stdDeviation="2" flood-color="#241910" flood-opacity=".16"/></filter>
+<linearGradient id="black" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#383733"/><stop offset=".4" stop-color="#141614"/><stop offset="1" stop-color="#282923"/></linearGradient><linearGradient id="darklens" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#273028" stop-opacity=".93"/><stop offset="1" stop-color="#59604d" stop-opacity=".82"/></linearGradient>
+</defs>
+<g filter="url(#shadow)"><path d="M22 72H81L90 104L22 99Z M618 72H559L550 104L618 99Z" fill="url(#black)"/>
+<path d="M64 78Q163 58 277 78L262 152Q256 171 230 173L108 169Q83 166 78 145Z" fill="url(#darklens)" stroke="url(#black)" stroke-width="22" stroke-linejoin="round"/><path d="M576 78Q477 58 363 78L378 152Q384 171 410 173L532 169Q557 166 562 145Z" fill="url(#darklens)" stroke="url(#black)" stroke-width="22" stroke-linejoin="round"/>
+<path d="M274 93Q320 78 366 93" fill="none" stroke="url(#black)" stroke-width="20"/>
+<path d="M84 77Q166 65 256 78 M384 78Q474 65 556 77" stroke="white" opacity=".13" stroke-width="3" fill="none"/>
+<path d="M31 82H53 M587 82H609" stroke="#a9a99d" stroke-width="3" stroke-linecap="round"/>
+<path d="M95 87H133L105 151H91Z M395 87H433L405 153H391Z" fill="#fff" opacity=".06"/></g>
+</svg>

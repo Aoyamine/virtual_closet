@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="240" viewBox="0 0 640 240" role="img" aria-label="everyday">
+<defs>
+<linearGradient id="lens" x1="0" y1="0" x2=".65" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#684a32" stop-opacity=".16"/><stop offset="1" stop-color="#f6ead6" stop-opacity=".04"/></linearGradient>
+<linearGradient id="shine" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff" stop-opacity=".5"/><stop offset=".7" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<filter id="shadow" x="-20%" y="-40%" width="140%" height="180%"><feDropShadow dx="0" dy="3" stdDeviation="2" flood-color="#241910" flood-opacity=".16"/></filter>
+<pattern id="tortoise" width="48" height="36" patternUnits="userSpaceOnUse"><rect width="48" height="36" fill="#422619"/><path d="M-5 9Q4-6 22 4L24 17L8 23Z M32 17L46 8L56 20L45 34L29 31Z" fill="#ad6a36"/><path d="M6 28L23 20L31 35L20 43Z" fill="#c88c49"/><path d="M31-8L45 1L35 14L25 5Z" fill="#261c16"/></pattern>
+</defs>
+<g filter="url(#shadow)"><path d="M24 80L65 84L80 108L24 104Z M616 80L575 84L560 108L616 104Z" fill="url(#tortoise)"/>
+<path d="M62 111C62 69 100 50 165 52C237 53 276 75 274 114C271 160 237 185 174 185C106 186 64 163 62 111Z" fill="url(#lens)" stroke="url(#tortoise)" stroke-width="19"/><path d="M578 111C578 69 540 50 475 52C403 53 364 75 366 114C369 160 403 185 466 185C534 186 576 163 578 111Z" fill="url(#lens)" stroke="url(#tortoise)" stroke-width="19"/>
+<path d="M278 103Q320 77 362 103" fill="none" stroke="url(#tortoise)" stroke-width="17"/>
+<path d="M80 90Q117 61 181 66 M560 90Q523 61 459 66" fill="none" stroke="#e4b588" stroke-opacity=".35" stroke-width="3" stroke-linecap="round"/>
+<path d="M28 88H49 M591 88H612" stroke="#d6bca0" stroke-width="3" stroke-linecap="round"/>
+<path d="M99 79L119 74L87 137L83 119Z M397 78L418 71L383 132L379 113Z" fill="white" opacity=".12"/></g>
+</svg>

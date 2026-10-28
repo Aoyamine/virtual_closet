@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="240" viewBox="0 0 640 240" role="img" aria-label="after-hours">
+<defs>
+<linearGradient id="lens" x1="0" y1="0" x2=".65" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#684a32" stop-opacity=".16"/><stop offset="1" stop-color="#f6ead6" stop-opacity=".04"/></linearGradient>
+<linearGradient id="shine" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff" stop-opacity=".5"/><stop offset=".7" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<filter id="shadow" x="-20%" y="-40%" width="140%" height="180%"><feDropShadow dx="0" dy="3" stdDeviation="2" flood-color="#241910" flood-opacity=".16"/></filter>
+<linearGradient id="espresso" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#50362c"/><stop offset=".55" stop-color="#2c211e"/><stop offset="1" stop-color="#604336"/></linearGradient><linearGradient id="brownlens" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#3d3027" stop-opacity=".88"/><stop offset="1" stop-color="#8e7764" stop-opacity=".65"/></linearGradient>
+</defs>
+<g filter="url(#shadow)"><path d="M22 62H66L91 92L22 88Z M618 62H574L549 92L618 88Z" fill="url(#espresso)"/>
+<path d="M51 61Q176 49 278 99L264 146Q250 179 191 179Q124 179 92 144Z" fill="url(#brownlens)" stroke="url(#espresso)" stroke-width="18" stroke-linejoin="round"/><path d="M589 61Q464 49 362 99L376 146Q390 179 449 179Q516 179 548 144Z" fill="url(#brownlens)" stroke="url(#espresso)" stroke-width="18" stroke-linejoin="round"/>
+<path d="M278 106Q320 88 362 106" fill="none" stroke="url(#espresso)" stroke-width="16"/>
+<path d="M68 65Q160 58 245 88 M395 88Q480 58 572 65" fill="none" stroke="#be9b81" stroke-opacity=".34" stroke-width="3"/>
+<path d="M65 70L80 73 M560 73L575 70" stroke="#d2bd96" stroke-width="4" stroke-linecap="round"/>
+<path d="M99 79L132 78L116 143L102 121Z M406 91L436 79L421 158L405 149Z" fill="white" opacity=".07"/></g>
+</svg>
